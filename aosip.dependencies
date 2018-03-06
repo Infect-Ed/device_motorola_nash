@@ -1,0 +1,25 @@
+[
+  {
+    "repository": "jbats/android_kernel_motorola_msm8998",
+    "target_path": "kernel/motorola/msm8998",
+    "branch": "o8x-caf",
+    "remote": "github"
+  },
+  {
+    "repository": "TheMuppets/proprietary_vendor_motorola",
+    "target_path": "vendor/motorola",
+    "branch": "lineage-15.1",
+    "remote": "github"
+  },
+  {
+    "repository": "LineageOs/android_external_bson",
+    "target_path": "external/bson",
+    "branch": "lineage-15.1",
+    "remote": "github"
+  },
+  {
+    "repository": "frap129/android_vendor_pixelgapps",
+    "target_path": "vendor/pixelgapps",
+    "branch": "cr-6.1",
+    "remote": "github"
+]

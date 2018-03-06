@@ -158,6 +158,10 @@ PRODUCT_PACKAGES += \
     sap.conf \
     xtwifi.conf
 
+# GApps
+GAPPS_VARIANT := nano
+$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
+
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
@@ -243,10 +247,6 @@ PRODUCT_PACKAGES += \
 # LED packages
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.nash
-
-# LineageActions
-PRODUCT_PACKAGES += \
-    LineageActions
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -336,7 +336,9 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.1-service-qti
+    android.hardware.power@1.0-service \
+    android.hardware.power@1.0-impl \
+    power.qcom
 
 PRODUCT_COPY_FILES += \
     device/motorola/nash/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
