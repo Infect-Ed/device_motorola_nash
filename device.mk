@@ -159,7 +159,7 @@ PRODUCT_PACKAGES += \
     xtwifi.conf
 
 # GApps
-GAPPS_VARIANT := nano
+GAPPS_VARIANT := full
 $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
 
 # GMS
