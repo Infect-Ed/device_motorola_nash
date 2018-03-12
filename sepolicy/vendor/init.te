@@ -1,1 +1,6 @@
 allow init fsg_firmware_file:dir { mounton };
+<<<<<<< HEAD
+=======
+allow init ab_block_device:lnk_file relabelto;
+
+>>>>>>> 9ceb232... [WIP] nash: sepolicy bringup

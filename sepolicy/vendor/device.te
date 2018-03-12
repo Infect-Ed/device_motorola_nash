@@ -1,1 +1,6 @@
 type vl53l1_device, dev_type;
+<<<<<<< HEAD
+=======
+type ab_block_device, dev_type;
+
+>>>>>>> 9ceb232... [WIP] nash: sepolicy bringup

@@ -1,1 +1,6 @@
 allow hal_bootctl_default modem_efs_partition_device:blk_file getattr;
+<<<<<<< HEAD
+=======
+allow hal_bootctl_default ab_block_device:blk_file getattr;
+
+>>>>>>> 9ceb232... [WIP] nash: sepolicy bringup
