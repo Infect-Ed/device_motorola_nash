@@ -244,10 +244,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.nash
 
-# LineageActions
-PRODUCT_PACKAGES += \
-    LineageActions
-
 # LiveDisplay native
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@1.0-service-sdm \
