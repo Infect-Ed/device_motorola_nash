@@ -159,6 +159,7 @@ TARGET_KERNEL_SOURCE := kernel/motorola/msm8998
 TARGET_KERNEL_CONFIG := lineageos_nash_defconfig
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_PATH := $(ANDROID_BUILD_TOP)/prebuilts/clang/host/$(HOST_OS)-x86/7.0-DragonTC/bin
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
