@@ -1,0 +1,32 @@
+[
+  {
+    "repository": "InvictrixRom-Devices/kernel_motorola_nash",
+    "target_path": "kernel/motorola/nash",
+    "branch": "inv-8.1",
+    "remote": "github"
+  },
+  {
+    "repository": "DirtyUnicorns/android_vendor_motorola",
+    "target_path": "vendor/motorola",
+    "branch": "o8x-caf",
+    "remote": "github"
+  },
+  {
+    "repository": "LineageOs/android_external_bson",
+    "target_path": "external/bson",
+    "branch": "lineage-15.1",
+    "remote": "github"
+  },
+  {
+    "repository": "DirtyUnicorns/android_vendor_pixelgapps",
+    "target_path": "vendor/pixelgapps",
+    "branch": "o8x",
+    "remote": "github"
+  },
+  {
+    "repository": "USA-RedDragon/prebuilts_clang_host_linux-x86_7.0-DragonTC",
+    "target_path": "prebuilts/clang/host/linux-x86/7.0-DragonTC",
+    "branch": "master",
+    "remote": "github"
+  }
+]
