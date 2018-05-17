@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
+
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := 560dpi
