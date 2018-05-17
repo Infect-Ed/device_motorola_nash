@@ -59,7 +59,7 @@ endif
 
 # Device identifiers
 PRODUCT_DEVICE := nash
-PRODUCT_NAME := lineage_nash
+PRODUCT_NAME := invictrix_nash
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Moto Z2
 PRODUCT_MANUFACTURER := Motorola
